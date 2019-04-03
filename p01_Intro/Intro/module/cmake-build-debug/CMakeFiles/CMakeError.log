@@ -1,0 +1,16 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: /cygdrive/c/Users/phili/Dropbox/Studium-Share/BSYTrance-master/p01_Intro/Intro/module/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_b9c81/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b9c81.dir/build.make CMakeFiles/cmTC_b9c81.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/phili/Dropbox/Studium-Share/BSYTrance-master/p01_Intro/Intro/module/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9c81.dir/testCCompiler.c.o
+/cygdrive/c/MinGW/bin/gcc.exe    -o CMakeFiles/cmTC_b9c81.dir/testCCompiler.c.o   -c /cygdrive/c/Users/phili/Dropbox/Studium-Share/BSYTrance-master/p01_Intro/Intro/module/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+gcc.exe: error: /cygdrive/c/Users/phili/Dropbox/Studium-Share/BSYTrance-master/p01_Intro/Intro/module/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c: No such file or directory
+gcc.exe: fatal error: no input files
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_b9c81.dir/build.make:66: CMakeFiles/cmTC_b9c81.dir/testCCompiler.c.o] Error 1
+make[1]: Leaving directory '/cygdrive/c/Users/phili/Dropbox/Studium-Share/BSYTrance-master/p01_Intro/Intro/module/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b9c81/fast] Error 2
+
+

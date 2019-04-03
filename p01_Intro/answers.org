@@ -1,0 +1,22 @@
+* Module
+7. Programm kompiliert nicht, da andere Definition in Headerfile
+9. Aenderungen: 
+  - Ausgabe Pi in Main
+  - Type Return Value in mydefs.h to double
+  - Include von math.h
+  - Eingabe in main %f zu %lf 
+10.
+    macros2: 
+    macros3:
+* Listen
+Test2: Gleiche Objekte in mehreren Listen, eine Liste wird geloescht, Objekt nicht mehr vorhanden
+-> Invalid Pointer, Garbage
+
+Analyse:
+Ohne Makro ist das Programm zu 50% mit mtGetReadyTime beschaeftigt. Mit fast zu 100% mit mlSortIn.
+Grund dafuer ist, dass das Makro denn Funktionscall durch einen direkten Zugriff auf readyTime des Structs
+ersetzt. Somit wird das Stack nicht mit teuren Funktionsaufrufen belastet.
+
+#+BEGIN_SRC python :results output
+print("hello org")
+#+END_SRC
