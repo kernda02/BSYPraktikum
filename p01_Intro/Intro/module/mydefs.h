@@ -20,7 +20,8 @@
 *******************************************************************************/
 /* gemeinsame Typen, Konstanten, Macros und globale Variablen-Deklarationen   */
 
-#define my_pi 3.14
+#include "math.h"
+#define my_pi M_PI
 
 typedef double myfloat_t;
 
