@@ -1,0 +1,53 @@
+
+*************************************************************
+check: initialization of queue
+-> passed
+
+*************************************************************
+check: enqueue threads and list consistency
+-> passed
+
+*************************************************************
+check: dequeue 4 threads
+-> passed
+
+*************************************************************
+check: check if dummy node is released by free()
+-> passed
+
+*************************************************************
+check: auxilary functions on new & empty list
+-> passed
+
+*************************************************************
+check: auxilary functions
+-> passed
+
+*************************************************************
+check: enqueue and dequeue
+-> passed
+
+*************************************************************
+check: enqueue sorted into empty list
+-> passed
+
+*************************************************************
+check: dequeue and dummy node handling
+-> passed
+
+*************************************************************
+check: add sorted and enque
+-> passed
+
+*************************************************************
+check: empty whole list
+-> passed
+
+*************************************************************
+check: test large list
+-> passed
+
+*************************************************************
+check: random test
+......
+-> passed
